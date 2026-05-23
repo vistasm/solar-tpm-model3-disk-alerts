@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-23T05:30:14Z",
+    "prediction_date": "2026-05-23",
+    "model_name": "Model 3 (Sweeper)",
+    "model_version": "v3.0.17",
+    "rolling_window_days": 30,
+    "days_of_history": 74,
+    "tiers": [
+      "M_plus",
+      "M5_plus",
+      "X_plus"
+    ],
+    "budgets": [
+      "1pct",
+      "5pct",
+      "10pct",
+      "20pct",
+      "30pct"
+    ],
+    "note": "Disk-level global alert. Rolling 30-day budget threshold \u2014 zero forward bias. No per-AR attribution."
+  },
+  "disk_alert": {
+    "M_plus": {
+      "max_probability": 0.303397,
+      "1pct": {
+        "alert": 0,
+        "threshold": 0.781642,
+        "n_alerts_in_prior_window": 1
+      },
+      "5pct": {
+        "alert": 0,
+        "threshold": 0.777988,
+        "n_alerts_in_prior_window": 3
+      },
+      "10pct": {
+        "alert": 0,
+        "threshold": 0.736236,
+        "n_alerts_in_prior_window": 3
+      },
+      "20pct": {
+        "alert": 0,
+        "threshold": 0.552696,
+        "n_alerts_in_prior_window": 6
+      },
+      "30pct": {
+        "alert": 0,
+        "threshold": 0.485669,
+        "n_alerts_in_prior_window": 9
+      }
+    },
+    "M5_plus": {
+      "max_probability": 0.158637,
+      "1pct": {
+        "alert": 0,
+        "threshold": 0.868091,
+        "n_alerts_in_prior_window": 2
+      },
+      "5pct": {
+        "alert": 0,
+        "threshold": 0.848165,
+        "n_alerts_in_prior_window": 3
+      },
+      "10pct": {
+        "alert": 0,
+        "threshold": 0.728462,
+        "n_alerts_in_prior_window": 4
+      },
+      "20pct": {
+        "alert": 0,
+        "threshold": 0.595356,
+        "n_alerts_in_prior_window": 7
+      },
+      "30pct": {
+        "alert": 0,
+        "threshold": 0.432908,
+        "n_alerts_in_prior_window": 8
+      }
+    },
+    "X_plus": {
+      "max_probability": 0.092227,
+      "1pct": {
+        "alert": 0,
+        "threshold": 0.520182,
+        "n_alerts_in_prior_window": 0
+      },
+      "5pct": {
+        "alert": 0,
+        "threshold": 0.51307,
+        "n_alerts_in_prior_window": 1
+      },
+      "10pct": {
+        "alert": 0,
+        "threshold": 0.450392,
+        "n_alerts_in_prior_window": 1
+      },
+      "20pct": {
+        "alert": 0,
+        "threshold": 0.351391,
+        "n_alerts_in_prior_window": 5
+      },
+      "30pct": {
+        "alert": 0,
+        "threshold": 0.297407,
+        "n_alerts_in_prior_window": 12
+      }
+    }
+  },
+  "threshold_stability": {
+    "M_plus": {
+      "7d_shift_pct": 0.0,
+      "stable": "True"
+    },
+    "M5_plus": {
+      "7d_shift_pct": 0.0,
+      "stable": "True"
+    },
+    "X_plus": {
+      "7d_shift_pct": 0.0,
+      "stable": "True"
+    }
+  }
+}
